@@ -44,25 +44,8 @@ Follow these steps to set up the project locally on your machine.
 - A TMDB API key ([Get it here](https://www.themoviedb.org/settings/api))
 
 ### Project Structure
+<img width="351" height="565" alt="image" src="https://github.com/user-attachments/assets/b3b54553-6bff-4fc9-a7d6-b29b7a7544f0" />
 
-movie-explorer/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── MovieCard.js
-│   │   ├── MovieList.js
-│   │   └── SearchBar.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   └── MovieDetail.js
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── .env
-├── package.json
-└── README.md
 
 ### 🌐 API Usage
 This application uses the TMDB API to fetch movie data:
@@ -97,3 +80,5 @@ Implement user ratings and reviews
 
 ### 👨‍💻 Developer
 Akish Raj A - GitHub(https://github.com/AkishRaj) | LinkedIn(https://www.linkedin.com/in/akish-raj/)
+
+### ⭐ If you find this project helpful, please give it a star on GitHub!
