@@ -43,5 +43,57 @@ Follow these steps to set up the project locally on your machine.
 - npm (usually comes with Node.js)
 - A TMDB API key ([Get it here](https://www.themoviedb.org/settings/api))
 
+### Project Structure
 
+movie-explorer/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── MovieCard.js
+│   │   ├── MovieList.js
+│   │   └── SearchBar.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   └── MovieDetail.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── .env
+├── package.json
+└── README.md
 
+### 🌐 API Usage
+This application uses the TMDB API to fetch movie data:
+
+https://api.themoviedb.org/3/movie/popular - Get popular movies
+
+https://api.themoviedb.org/3/search/movie - Search for movies
+
+https://api.themoviedb.org/3/movie/{movie_id} - Get specific movie details
+
+### 📱 Usage
+Homepage: View a grid of popular movies on the initial load.
+
+Search: Use the search bar to find movies by title.
+
+Movie Details: Click on any movie card to view detailed information.
+
+Navigation: Use the browser's back button to return to previous pages.
+
+### 🎯 Future Enhancements
+Add movie trailers using YouTube API
+
+Implement user favorites with local storage
+
+Add pagination for search results
+
+Include movie genres filtering
+
+Add dark/light mode toggle
+
+Implement user ratings and reviews
+
+### 👨‍💻 Developer
+Akish Raj A - GitHub(https://github.com/AkishRaj) | LinkedIn(https://www.linkedin.com/in/akish-raj/)
